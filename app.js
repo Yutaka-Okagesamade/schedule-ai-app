@@ -100,9 +100,9 @@ document.addEventListener('DOMContentLoaded', () => {
         showView(statusArea);
 
         // ★ここにGASでデプロイした「ウェブアプリのURL」を貼り付けます
-        const gasUrl = 'https://script.google.com/macros/s/AKfycby0MF0CDlJwLpYX98rj0K1cQdUT8-grzj48PvDgqgBvdbfpbKlY-T_PyYc88RJqVHkK/exec';
+        const gasUrl = 'https://script.google.com/macros/s/AKfycbzI4qAQaTkUIMPuJ8iOvy-Rul_XDE72G8NqvSErSgAz6g_lfqINSgR-JiYS0nCcl-OThA/exec';
 
-        if (gasUrl === 'https://script.google.com/macros/s/AKfycby0MF0CDlJwLpYX98rj0K1cQdUT8-grzj48PvDgqgBvdbfpbKlY-T_PyYc88RJqVHkK/exec') {
+        if (gasUrl === 'https://script.google.com/macros/s/AKfycbzI4qAQaTkUIMPuJ8iOvy-Rul_XDE72G8NqvSErSgAz6g_lfqINSgR-JiYS0nCcl-OThA/exec') {
             alert('【開発者への注意】\nGASのウェブアプリURLが設定されていません。\napp.jsの gasUrl を書き換えてから再度お試しください。');
             showView(previewContainer);
             return;
